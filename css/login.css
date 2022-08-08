@@ -1,33 +1,46 @@
 body{
-    background-image: url(/images/loginregisterbg.jpg);
+    background-image: url(/images/bg.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 i{
-    color: #00011f;
+    color: #ffffff;
     padding-bottom: 10px;
 }
+
 .container{
     margin-top: 100px;
     border-width: 1px solid ;
     border-color: #ffffff;
 }
 
+.signup, .signuplink{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.signuplink:hover{
+    color: #ffa061;
+}
+form{
+    padding: 50px 0px;
+}
+
 .content-form{
     border-width: 1px;
-    border-style: solid;
-    background-color: rgb(164, 214, 231);
-    border-radius: 50px;
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 50px 70px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px 50px;
 }
 
 h3{
-    color: #00011f;
+    color: #ffffff;
     padding: 10px 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
+    font-style: bold;
 }
 
 .form-group{
@@ -42,7 +55,7 @@ h3{
 
 .button{
     border: none;
-    background-color: #2eaed8;
+    background-color: #ffa061;
     color: #ffffff;
     padding: 10px 30px;
     font-family: 'Josefin Sans', sans-serif;
@@ -50,7 +63,15 @@ h3{
     font-size: 20px;
 }
 
+.button:hover{
+    background-color: #e07d3b;
+}
+
 .forgot{
-    color: #0b0d4d;
+    color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.forgot:hover{
+    color: #ffa061;
 }
